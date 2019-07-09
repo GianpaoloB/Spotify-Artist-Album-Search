@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Spotify search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+
+            <div class="searchbox">
+                <h1>Spotify search</h1><br/>
+                <input type="text" name="" value="" id="searchbox">
+                <div class="radio">
+                    <input type="radio" name="spotify" value="artist" id="artist" checked="checked">
+                    Artist<br>
+                    <input type="radio" name="spotify" value="album" id="album">
+                    Album
+                </div>
+                <button type="button" name="button" id="search">Start Research</button>
+            </div>
+
+            <main>
+                <h2></h2>
+                <div class="results"></div>
+            </main>
+        </div>
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="script.js" charset="utf-8"></script>
+    </body>
+</html>
